@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    background-color: #1e1d2b;
+    font-family:poppins;
+    margin: 0px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  header {
+    padding-top: 23px;
+    text-align: center;
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+.logo img{
+    width: 150px;
+    height: 150px;
+}
+  
+  nav {
+    margin-bottom: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav a {
+    font-weight: 600;
+    padding-right: 30px;
+    color: #FFFFFF;
+  }
+  
+  nav a:hover {
+    color:rgb(44, 44, 44);
+  }
+  
+  .ham {
+    display: none;
+  }
+  .lette1{
+    margin-left: 10%;
+    margin-top:0px !important;
+    font-size: 60px;
+    text-align: left;
+    color: rgb(255, 123, 0);
+}
+
+.patata{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.lette2{
+
+    margin-top: 0px;
+    font-size: 20px;
+    text-align: left;
+    color:#FFFFFF;
+    margin-bottom:0px !important; 
+}
+.ver{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 30px !important;
+    margin-left: 0%;
+    padding-left: 30px;
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    margin-right:50px;
+    margin-top: 0px !important;
+    font-size: 20px;
+    height: 30px;
+    width: 190px;
+    top:0px;
+    text-align: center;
+    text-overflow: initial;
+    color:#FFFFFF;;
+    background-color:  rgb(255, 123, 0);
+    border-bottom:rgb(255, 123, 0) solid 2px;
+}
+.ver a{
+    margin-left: 2px;
+    color: #FFFFFF;
+}
+.ver:hover
+{
+    background-color: #403e5a;
+    color: black;
+}
+.home
+{
+    width: 400px;
+    height: 400px;
+    margin-top: -50px;
+    margin-left:260px;
+}
+  
+  @media (max-width: 700px) {
+    .logo img {
+        position: absolute;
+        left: 0;
+        top: 3;
+        padding: 2px; /* Si deseas mantener el padding */
+        width: 80px;
+        height: 80px;
+      }
+      
+  
+    header {
+      display: block;
+      min-height: 70px;
+      background-color: #1e1d2b;
+      padding: 10px;
+    }
+  
+    .ham {
+      right: 10px; /* Adjusted to position on the right */
+      position: relative;
+      padding: 10px 12px;
+      color: aliceblue;
+      display: flex;
+    }
+  
+    .checkbox,
+    .icons {
+      position: absolute;
+      margin-top:5%;
+      margin-left:450px ;
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      top: 10px;
+      cursor: pointer;
+    }
+  
+    nav {
+      display: none;
+    }
+  
+    .icons {
+      
+      pointer-events: none;
+      font-size: 24px;
+    }
+  
+    .checkbox {
+      opacity: 0;
+    }
+  
+    .fi-bs-cross {
+      display: none;
+    }
+  
+    .checkbox:checked ~ .fi-rr-menu-burger {
+      display: none;
+    }
+  
+    .checkbox:checked ~ .fi-bs-cross {
+      display: block;
+    }
+  
+    .menu {
+      justify-content: space-between;
+      margin-left: 42px;
+      top:  90px !important;
+      left: 0px;
+      padding-left: 0;
+      width: 640px; 
+      position: fixed;
+      top: 48px; 
+    }
+  
+    .menu {
+      text-align: center;
+      margin-left: 0px;
+      margin-right: 0px;
+      list-style: none;
+      background-color: rgb(45, 50, 73);
+    }
+  
+    .menu p a {
+      text-align: center;
+      color: #FFFFFF;
+      margin-left: 0px;
+    }
+  
+    .menu p a:hover {
+      display: block;
+      border: rgba(58, 236, 73, 0.884) solid 2px;
+    }
+  
+    .menu {
+      display: none;
+    }
+  
+    .checkbox:checked ~ .menu {
+      display: block;
+    }
+    .patata{
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+    .lette1{
+        
+        margin-top:0px !important;
+        font-size: 60px;
+    
+        text-align: center;
+        color: rgb(255, 123, 0);
+    }
+    
+    .lette2{
+
+        margin-top: 0px;
+        font-size: 20px;
+        text-align: center;
+
+        color:#FFFFFF;
+        margin-bottom:0px !important; 
+    }
+    .ver{
+        
+        padding-left: 2Px;
+        margin-right: 10px;
+        margin-bottom: 23px !important;
+        margin-left: 36%;
+        display: flex;
+        justify-content:space-between;
+        text-align: center;
+        margin-right:50px;
+        margin-top: 0px !important;
+        font-size: 16px;
+        height: 24px;
+        width: 120px;
+        top:0px;
+        text-align: center;
+        text-overflow: initial;
+        color:#FFFFFF;;
+        background-color:  rgb(255, 123, 0);
+        border-bottom:rgb(255, 123, 0) solid 2px;
+    }
+    .ver a{
+        margin-left: 2px;
+        color: #FFFFFF;
+    }
+    .ver:hover
+    {
+        background-color: #403e5a;
+        color: black;
+    }
+    .home
+    {   
+        margin-top: 10px;
+        width: 400px;
+        height: 400px;
+        margin-left:50px
+        ;
+    }
+  }
+  
+  
