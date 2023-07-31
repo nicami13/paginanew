@@ -87,6 +87,12 @@
         padding: 0;
         display: flex;
     }
+    
+    .patata{
+      position: absolute;
+      top: 260px;
+      left: 260px;
+    }
 
     .lette2{
 
@@ -167,7 +173,7 @@
         width: 470px;
         position: absolute;
         top:20px;
-        left: 20px;
+        left: 290px;
 
     }
     .ve1{
@@ -222,7 +228,7 @@
     }
     .box-1
     {
-    left: calc(50% / 8);
+    left: calc(50%/2.4);
     border-radius: 23px;
     position: absolute;
     width: 320px;
@@ -424,7 +430,7 @@
     .boux-1
     {
 
-    left: calc(20% / 3);
+    left: calc(50% / 3 + 100px);
     border-radius: 23px;
     position: absolute;
     width: 320px;
@@ -479,7 +485,7 @@
     .boux-2
     {
 
-    left:360px;
+    left: 700px;
     border-radius: 23px;
     position: absolute;
     width: 320px;
@@ -592,6 +598,7 @@
         width: 60%;
         position: absolute;
         top: 2400px;
+        left: 200px;
         
     
     }
@@ -655,7 +662,7 @@
         position: absolute;
         right: 34%;
         top: 2800px;
-        left: 150px;
+        left: 350px;
     }
     .bold1 ul li
     {
@@ -669,7 +676,7 @@
     {
         position: absolute;
         top: 2800px;
-        left: 400px;
+        left: 550px;
     }
     .bold1 ul li
     {
@@ -698,7 +705,7 @@
     {
         position: absolute;
         top: 2800px;
-        left: 700px;
+        left: 850px;
     }
     .ter
     {
@@ -712,14 +719,14 @@
     
         width: 200px;
         position: absolute;
-        left: 1000px;
+        left: 1300px;
         top: 2800px;
         color: #FFFFFF;
     }
     .ter a{
         position: absolute;
         text-align: center;
-        left: 1000px;
+        left: 1300px;
         top: 2850px;
         bottom: 18px;
     }
@@ -757,7 +764,7 @@
     .icons {
       position: absolute;
       margin-top:5%;
-      margin-left:450px ;
+      margin-left: 400px;
       width: 24px;
       height: 24px;
       position: absolute;
@@ -790,6 +797,9 @@
     .checkbox:checked ~ .fi-bs-cross {
       display: block;
     }
+    
+    
+  
   
     .menu {
       justify-content: space-between;
