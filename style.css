@@ -743,7 +743,7 @@
 @media (max-width: 700px) {
     .logo img {
         position: absolute;
-        left: 0;
+        left: 50px;
         top: 3;
         padding: 2px; 
         width: 80px;
@@ -759,7 +759,6 @@
     }
   
     .ham {
-      right: 10px; 
       position: relative;
       padding: 10px 12px;
       color: aliceblue;
@@ -770,7 +769,7 @@
     .icons {
       position: absolute;
       margin-top:5%;
-      margin-left: 580px;
+      margin-left: 680px;
       width: 24px;
       height: 24px;
       position: absolute;
@@ -808,12 +807,14 @@
   
   
     .menu {
+      text-align: center;
       justify-content: space-between;
-      margin-left: 42px;
+      margin-left: 0px;
       top:  90px !important;
       left: 0px;
-      padding-left: 0;
-      width: 640px; 
+      right: 0px;
+      padding-left: 0px;
+      width: 100%; 
       position: fixed;
       top: 48px; 
     }
@@ -829,7 +830,7 @@
     .menu p a {
       text-align: center;
       color: #FFFFFF;
-      margin-left: 0px;
+      margin-left: -230px;
     }
   
     .menu p a:hover {
@@ -845,17 +846,18 @@
       display: block;
     }
     .patata{
-        margin: 0;
+        width: 100%;
         display: block;
-        
+        margin-left: 50%;
     }
     .lette1{
         padding-top: 20px;
+       
         margin-top:0px !important;
         font-size: 60px;
-    
-        text-align: center;
         color: rgb(255, 123, 0);
+        width: 700px;
+        
     }
     
     .lette2{
@@ -863,6 +865,7 @@
         margin-top: 0px;
         font-size: 20px;
         text-align: center;
+        margin-left: -50%;
 
         color:#FFFFFF;
         margin-bottom:0px !important; 
@@ -872,7 +875,7 @@
         padding-left: 2Px;
         margin-right: 10px;
         margin-bottom: 23px !important;
-        margin-left: 40%;
+        margin-left: 120px;
         display: flex;
         justify-content:space-between;
         text-align: center;
@@ -899,44 +902,49 @@
     }
     .home
     {   
+        margin-left: -30%;
         margin-top: 10px;
-        width: 400px;
-        height: 400px;
-        margin-left: 120px;
-        ;
+        width: 600px;
+        height: 600px;
     }
     .mari
     {
+
         display:inline;
+        width: 100%;
     }
     .mari {
         text-align: center;
     }
     .m{ 
+
+        width: 100%;
         padding:10px;
-        margin-left: 0%;
+        margin-left: 50%;
         font-weight: 40px;
         color:rgb(255, 123, 0);
     }
     .r{
         width:300px;
-        margin-left: 28%;
-        left: 80px;
+        margin-left: 60%;
+        left: 400px;
         font-size: 14px;
         color: #FFFFFF;
     }
     .a{
         font-size: 26px;
-        margin-left: 28%;
+        margin-left: 65%;
         width: 270px ;
         color: #FFFFFF;
     }
     .mari img{
 
-        width: 470px;
+        width: 600px;
+        height: 600px;
         position: absolute;
-        top: 1120px;
-        left: 110px;
+        top: 1300px;
+        left: 90px;
+
 
     }
     .ve1{
@@ -944,7 +952,7 @@
         padding-left: 20Px;
         margin-right: 10px;
         margin-bottom: 23px !important;
-        margin-left: 40%;
+        margin-left: 83%;
         display: flex;
         justify-content:space-between;
         text-align: center;
@@ -976,10 +984,14 @@
     width: 100%;
     display: inline;
     position: absolute;
+    margin-left: 40%;
   
-    top: 1600px;
+    top: 1900px;
   }
   .z{
+
+    width: 100%;
+    margin-left: 12% !important;
     -webkit-text-stroke-width: 1px;
     text-align: center;
     color: rgb(255, 123, 0);
@@ -987,35 +999,35 @@
   }
 
   .h{
-    margin-left: 0%;
+    margin-left: 20%;
     text-align: center;
     color: #FFFFFF;
   }
   .box-1
   {
-    left: calc(25%);
-    border-radius: 23px;
+    left: calc(6%);
+    border-radius: 27px;
     position: absolute;
-    width: 320px;
-    height: 400px;
+    width: 360px;
+    height: 440px;
     background-color: #f5f1cb;
     justify-content: center;
   }
   
   .int{
-    border-radius:23px ;
+    border-radius:27px ;
     position: absolute;
-    left: 20px;
-    top: 20px;
-    width: 280px;
-    height: 280px;
+    left:8% !important;
+    top: 455px;
+    width: 300px !important;
+    height: 300px !important;
     background-color: #FFFFFF;
   }
   .box-1 img{
-    width: 220px;
-    height: 220px;
+    width: 260px;
+    height: 260px;
     position: absolute;
-    left:35px;
+    left:25px;
     top: 35px;
 
   }
@@ -1026,7 +1038,7 @@
     position: absolute;
     justify-content: center;
     left: 80px;
-    top: 280px;
+    top: 300px;
 
   }
   .p2-1
@@ -1035,7 +1047,7 @@
     position: absolute;
     justify-content: center;
     left: 94px;
-    top: 305px;
+    top: 325px;
 
   }
   .p3-1
@@ -1044,29 +1056,29 @@
     position: absolute;
     justify-content: center;
     left: 110px;
-    top: 330px;
+    top: 350px;
     color: orange;
 
   }
+
   .box-2
   {
-    top:450px ;
-    left:0;
-    border-radius: 23px;
+    top:470px ;
+    border-radius: 27px;
     position: absolute;
-    width: 320px;
-    height: 400px;
+    width: 360px;
+    height: 440px;
     background-color: #f5f1cb;
     justify-content: center;
   }
   
   .int2{
-    border-radius:23px ;
+    border-radius:27px ;
     position: absolute;
-    left: 20px;
-    top: 20px;
-    width: 280px;
-    height: 280px;
+    left:8% !important;
+    top: 455px;
+    width: 300px !important;
+    height: 300px !important;
     background-color: #FFFFFF;
   }
   .box-2 img{
@@ -1084,7 +1096,7 @@
     position: absolute;
     justify-content: center;
     left: 60px;
-    top: 280px;
+    top: 300px;
 
   }
   .p2-2
@@ -1093,7 +1105,7 @@
     position: absolute;
     justify-content: center;
     left: 94px;
-    top: 305px;
+    top: 325px;
 
   }
   .p3-2
@@ -1102,30 +1114,30 @@
     position: absolute;
     justify-content: center;
     left: 110px;
-    top: 330px;
+    top: 350px;
     color: orange;
 
   }
   .box-3
 {
 
-  top:430px ;
+  top:450px ;
   left:-20px;
-  border-radius: 23px;
+  border-radius: 27px;
   position: absolute;
-  width: 320px;
-  height: 400px;
+  width: 360px;
+  height: 440px;
   background-color: #f5f1cb;
   justify-content: center;
 }
 
 .int3{
-  border-radius:23px ;
+  border-radius:27px ;
   position: absolute;
-  left: 20px;
-  top: 20px;
-  width: 280px;
-  height: 280px;
+  left:8% !important;
+  top: 455px;
+  width: 300px !important;
+  height: 300px !important;
   background-color: #FFFFFF;
 }
 .box-3 img{
@@ -1144,7 +1156,7 @@
   font-weight:bold;
   justify-content: center;
   left: 60px;
-  top: 280px;
+  top: 300px;
 
 }
 .p2-3
@@ -1153,7 +1165,7 @@
   position: absolute;
   justify-content: center;
   left: 94px;
-  top: 305px;
+  top: 325px;
 
 }
 .p3-3
@@ -1162,7 +1174,7 @@
   position: absolute;
   justify-content: center;
   left: 110px;
-  top: 330px;
+  top: 350px;
   color: orange;
 
 }
@@ -1171,11 +1183,11 @@
     width: 100%;
     display: inline;
     position: absolute;
-    top: 3100px;
+    top: 3600px;
   }
   .z{
     -webkit-text-stroke-width: 1px;
-    text-align: center;
+    margin-left: 50% !important;
     color: rgb(255, 123, 0);
 
   }
@@ -1184,13 +1196,13 @@
     
     font-size: 25px;
     width: 240px;
-    margin-left:200px;
+    margin-left:240px;
     text-align: center;
     color: #FFFFFF;
   }
   .boux-1
   {
-    left: calc(23%);
+    left: calc(50%) !important;
     border-radius: 23px;
     position: absolute;
     width: 320px;
@@ -1239,6 +1251,7 @@
     justify-content: center;
     left: 20px;
     top: 304px;
+    color: #FFFFFF;
 
   }
   
@@ -1267,7 +1280,7 @@
     width: 220px;
     height: 220px;
     position: absolute;
-    left:150px;
+    left:50% !important;
     top: 35px;
 
   }
@@ -1278,7 +1291,7 @@
     font-weight:bold;
     position: absolute;
     text-align:center ;
-    left: 210px;
+    left: 240px;
     top: 280px;
 
   }
@@ -1289,8 +1302,9 @@
     font-weight:300px;
     position: absolute;
     text-align: center;
-    left: 90px;
+    left: 120px;
     top: 305px;
+    color: #FFFFFF;
 
   }
   .boux-2
@@ -1302,12 +1316,11 @@
     {
 
       top:450px ;
-      left:-20px;
+      left:0px;
       border-radius: 23px;
       position: absolute;
       width: 320px;
       height: 400px;
-
       justify-content: center;
     }
 
@@ -1351,14 +1364,15 @@
       font-style:initial;
       left: 114px;
       top: 320px;
+      color: #FFFFFF;
 
     }
 
     .cuadro{
-        width: 60%;
-        left: 30px;
+        width: 540px;
+        left: 0px !important;
         position: absolute;
-        top: 4550px;
+        top: 5100px;
 
     
     }
@@ -1417,7 +1431,7 @@
     .bold
     {
         position: absolute;
-        top: 4800px;
+        top: 5300px;
     }
     .bold1 ul li
     {
@@ -1430,7 +1444,7 @@
     .bold1
     {
         position: absolute;
-        top: 5000px;
+        top: 5500px;
     }
     .bold1 ul li
     {
@@ -1443,7 +1457,7 @@
     .bold1
     {
         position: absolute;
-        top: 5000px;
+        
     }
 
     .bold2 ul li
@@ -1457,12 +1471,12 @@
     .bold2
     {
         position: absolute;
-        top:5200px;
+        top:5700px;
     }
     .ter
     {
         padding-top: 20px;
-        top: 5400px;
+        top: 5900px;
         position: absolute;
         padding-bottom: 30px;
     }
@@ -1471,14 +1485,14 @@
        
         width: 800px;
         position: absolute;
-        left: 190px;
+        left: 300px;
         bottom: 29px;
         color: #FFFFFF;
     }
     .ter a{
         position: absolute;
         text-align: center;
-        left: 210px;
+        left: 320px;
         bottom: 18px;
     }
     .p:hover{
@@ -1487,7 +1501,5 @@
 
 
   }
-
-
   
   
