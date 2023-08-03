@@ -765,7 +765,8 @@ height: 260px;
 }
 .cuadro{
     display: grid;
-    width: 80%;
+    padding-left: 400px;
+    padding-right: 400px;
     border: sandybrown double 6px;
     background-color: antiquewhite;
 }
